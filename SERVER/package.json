@@ -1,23 +1,20 @@
 {
-  "name": "server",
+  "name": "server-postgresql",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Shavvimal/LAP_2_Code_Challenge_Server.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Shavvimal/LAP_2_Code_Challenge_Server/issues"
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   },
-  "homepage": "https://github.com/Shavvimal/LAP_2_Code_Challenge_Server#readme",
   "dependencies": {
-    "nodemon": "^2.0.12"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.3.2"
   }
 }
