@@ -1,4 +1,4 @@
-version: '3'
+version: '3.2'
 services:
   server:
     image: node:12.18.4
@@ -14,9 +14,9 @@ services:
     depends_on:
       - db
     volumes:
-      - type: "bind"
-        source: "./api"
-        target: "/code"
+      - type: bind
+        source: ./api
+        target: /code
     command: bash -c "npm install && npm start"
 
   db:
