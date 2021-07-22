@@ -1,1 +1,1 @@
-web: docker-compose up
+web: cd api & npm init & npm install & npm run start
